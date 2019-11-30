@@ -23,7 +23,7 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.util.ArrayList;
 import java.util.List;
-
+// controller class
 @RestController
 @RequestMapping(value = "/test")
 public class TestController {

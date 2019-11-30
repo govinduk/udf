@@ -11,6 +11,7 @@ public class ColumnMetadata implements Serializable {
     private  Integer length;
 
 
+
     public String getColumnName() {
         return columnName;
     }

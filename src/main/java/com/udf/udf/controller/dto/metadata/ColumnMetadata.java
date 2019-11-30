@@ -9,15 +9,7 @@ public class ColumnMetadata implements Serializable {
     private  Boolean isNullable;
     private  String columnType;
     private  Integer length;
-    private  String name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getColumnName() {
         return columnName;
